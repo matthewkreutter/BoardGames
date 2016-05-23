@@ -299,7 +299,7 @@ int SudokuGame::save_sudoku_game() {
 
 ostream & operator<< (ostream &os, SudokuGame game) {
 	for (int y = game.width - 1; y >= 0; y--) {
-		os << y << "||"; // print the index
+		os << y << ")||"; // print the index
 		for (int x = 0; x <= game.width - 1; x++) {
 			int index = y * game.width + x;
 			if ((x + 1) % 3 == 0) {
@@ -313,10 +313,10 @@ ostream & operator<< (ostream &os, SudokuGame game) {
 
 		// print the horizontal diving line
 		if (y % 3 == 0) {
-			os << "=||";
+			os << "=)||";
 		}
 		else {
-			os << "-||";
+			os << "-)||";
 		}
 
 		for (int x = 0; x <= game.width - 1; x++) {
@@ -338,7 +338,7 @@ ostream & operator<< (ostream &os, SudokuGame game) {
 	}
 
 	// print the index numbers on the bottom
-	os << "#||";
+	os << "#)||";
 	for (int x = 0; x <= game.width - 1; x++) {
 		os << x;
 		if ((x + 1) % 3 == 0) {
