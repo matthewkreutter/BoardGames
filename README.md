@@ -1,4 +1,6 @@
 # BoardGames
 TicTacToe, Gomoku, and Sudoku in C++
 
-TicTacToe, Gomoku, and Sudoku in terminal, written in C++.
+Play TicTacToe, Gomoku, and Sudoku in the terminal!
+
+![ScreenShot](https://github.com/matthewkreutter/BoardGames/blob/master/BoardGames/SudokuGame.png)
